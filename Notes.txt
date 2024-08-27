@@ -1,0 +1,371 @@
+What is web development?
+-----------------------------------------
+Creating, building and maintaining. 
+
+Web Design -> UI/UX designer -> Fresher 3LPA - 5+ years 12LPA
+Web Publishing/Programming -> Frontend Developer Fresher 3/4LPA - 5+ years 24LPA
+Database Management -> DB Admins - SQL Developer/ PL/SQL Developer
+
+How a Website Works?
+------------------------------
+Client & Server
+
+Client -> Phone, Computer, Laptop, Internet Browers
+Server -> A place where you store  your website data (HTML, CSS, JavaScript)
+
+TCP -> Transmission control protocol
+IP -> Internet Protocol
+
+www.google.com -> IP -> searches -> return to client
+
+DNS -> Domain name system -> google.com -> 192.168.34.54 -> server -> files(Component files - code files + assets)
+
+HTTP -> Hypertext transfer protocol -> used for communicating files between the server and the client.
+
+HTML Introduction
+----------------------------------
+HTML ->  HyperText Markup Language -> Creating websites.
+
+Why HTML?
+1. Simple, easy to learn & implement
+2. create websites
+
+HTML History:
+HTML 1 -> 1993 -> Tim Berners-Lee
+HTML 2 -> 1995
+HTML 3 -> 1997
+HTML 4 -> 1999
+HTML 4.01 -> 2012
+HTML 5 -> 2014
+
+Advantages of HTML:
+1. building website
+2. supported by all browsers
+3. Easy to integrate with other languages like CSS, JS, ..etc
+
+Dis-Advantages of HTML:
+1. HTML can create only static pages
+2. lengthy code
+3. security feature is not good
+
+HTML Editors:
+VSCODE, Notepad, Notepad++,  Sublime Text, Atom, Brackets... etc
+
+HTML Basics:
+
+1. Tag
+            <>      </>
+2. Element
+            <h1>Mounish</h1>
+
+Comments: -> Ctrl + /
+
+Break tag:   <br> empty tag
+
+Horizontal line: <hr> empty tag
+
+align -> to move the text towards the left, center or right hand side
+
+Fieldset -> used to group related elements in a form
+Legend -> gives a title for the group
+
+------------------------------------------------------------------------------------------------------------------------------------
+CSS -> Cascading Styling Sheet
+CSS is used to style HTML elements.
+
+Uses: 
+ 1. To style HTML elements
+ 2. Visually it will good
+ 3. To make the website responsive
+
+CSS1 -> 1996 -> basic Styling
+CSS2 -> 1998 -> layout styling 
+CSS2.1 -> 2004 -> box model
+CSS3 -> 2011 -> animations, model queries and web fonts
+CSS4 -> 2019 -> media queries
+
+Why learn CSS?
+1. Visual Appeal
+2. Responsive Design
+3. SEO(Search Engine Optimization) supported
+4. Maintaince is easy
+5. Career Opportunties -> Frontend, Web Designer, Full stack Developer
+6. Easy to learn
+
+Implementation:
+
+1. Inline
+2. Internal
+3. External
+
+CSS Syntax:
+
+    selector {Property: value;}      
+
+CSS Comments:
+
+    /* content */
+
+    /* Hi 
+    This is a comment */
+
+    Ctrl + / -> shortcut
+
+CSS Colours:
+    1. Built-in
+    2. RGB(Red, Green, Blue) -> 0 to 255
+    3. RGBA (A- alpha -> transparency)
+    4. HexaDecimal -> 0 - 9, A-F
+    5. HSL -> Hue, Saturation, Lightness
+    6. HSLA -> Alpha 
+
+CSS Border
+    1. Style
+    2. Width
+    3. Radius
+
+    Uses:
+        1. Styling buttons
+        2. Creating dividers
+        3. Navigation menu
+
+CSS Margins:
+    Defining the space around the elements.
+
+CSS Height & Width
+
+CSS Fonts
+    can be printable or display which as style and size.
+    1. Font Style
+    2. Font Size
+
+CSS icons
+
+CSS Links
+    link -> connection from one web page/ place to another web page
+
+CSS List
+    1. Ordered -> numbers, letters, romans
+    2. Unordered -> bullet (circles, squares..etc)
+
+
+CSS Display 
+    specifies an element's display behavior.
+
+CSS Positioning elements
+
+CSS Overflow
+: block but text is more than the block
+1. Visible
+2. Hidden
+3. Scroll
+4. Auto
+
+CSS Transitions
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+JavaScr.ipt
+
+What is JS?
+    lightweight, cross-platform, single-threaded and interpreted compiled Programming Language.
+    scripting of webpages.
+    Dynamically code languages.
+
+
+C,C++,Java
+    int a = 5;
+
+JS, Python:
+    a = "Mounish";
+
+Founded -> 1995 May
+Founder -> Eich Brendan
+Primary -> Mocha
+1997 -> Renamed it as JS
+
+Versions:
+1997 - ES1
+1998 - ES2
+1999 - ES3
+Build - ES4
+2009 - ES5
+2015 - ES6
+Currently - ES.NEST -> NextJs
+
+------->
+
+JS in HTML
+
+1. Head tag
+2. Body tag
+3. External page
+
+<script> js code </script>
+
+--> JS Statements:
+1. every line ends with a semicolon(;)
+
+-->JS Keywords:
+    1. var -> used to declare a variable. Variable is something you store a value and represent it.
+    a = 5; -> a is variable.
+
+    2. let -> used to declare a block variable.
+    let a , b, c;
+    a = 5;
+    b = 4;
+    c = 3;
+
+    3. function -> used to declaring a block of code '{}'.
+        Uses: code re-usability
+
+-> JS Operators:
+    1. Arithmetic -> +,-,*,/,%(modulus) -> remainder,**(exponential)->power, ++(incremental),--(decremental)
+    2. Assignment -> =, +=
+    3. Comparison -> comparing two variables 
+    4. Logical   -> 
+    5. String -> + concatination
+ 
+ a = "java"
+ b = "script"
+ c = a + " " + b; -> concatination
+
+
+ Conditional Statements:
+    It is used to compare two values with the help of comparison operator, since we are using comparison operator
+    the output will always be true/false// boolean.
+
+    1. if -> If Statements used to evaluate a particular condition. if condition is true then that code block is executed.
+        Syntax:
+            if(condition){
+                ------
+                ------
+            }
+
+    2. if else -> Condition is true then true block is executed, if the condition is false then false block is executed.
+
+        Syntax:
+            if(condition){
+                ------
+                ------                True block
+            }else{
+                ------
+                ------                false block
+            }
+
+    3. switch -> As the number of conditions increases you can use switch
+
+        Syntax:
+            switch(condition){
+                case 1:
+                    ------
+                    ------
+                    break;
+                case 2:
+                    ------
+                    ------
+                    break;
+                case 3:
+                    ------
+                    ------
+    4. ternary -> conditional operator (?:) short form of if else statements.
+
+        Syntax:
+            a = (condition) ? true : false;
+    5. break -> if you want to stop the program abruptly(suddenly) then you use break Statement.
+
+Loops in JS 
+
+    Loop -> loop is repeatedly executing a block of code with some specific conditions.
+
+    Entry Controlled Loop -> For loop, While loop
+    Exit Controlled Loop 
+
+    1. for -> starting, testing conditions, ending point
+              Initialization, incremental or decremental , condition
+
+        Syntax:
+            for(initialization; condition; increment/decrement){
+                ------
+                ------
+            }
+
+            1. Initialization
+            2. Run the block
+            3. incremental or decremental
+            4. condition
+
+    2. while -> while loop executes a block of code as long as the specified condition is true
+
+        Syntax:
+            while(condition){
+                ------
+                ------
+            }
+
+    3. do while -> 
+
+        Syntax:
+            do{
+                ------
+                ------
+            }while(condition)
+
+    4. for in -> run loop over a multiple objects in a single variable
+
+        Syntax:
+            for(var in object){
+                ------
+                ------
+            }
+
+    5. for of
+
+
+Functions:
+----------
+    A block of code designed to perform a task.
+    Readability and reusability
+
+    Syntax:
+        function functionName(){
+            ------
+            ------
+        }
+
+1. Function declaration -> creating the function
+2. Function body -> block of code of the function
+3. Function call -> A function is executed only when the function call happens.
+
+
+Default Function
+Parameterised Function
+
+Array:
+---------------
+    Array -> collection of heterogenous datatypes.
+    it is a data structure used to store multiple values in a single variable.
+    Arrays are indexed and Dynamically typed.
+
+    Syntax:
+        array = [1,2,3,4,5,"mounish",True];
+
+Strings:
+----------------
+    Collection of characters -> a ,b , c, d
+    it is enclosed with single or double quotes
+
+Keywords in String
+
+1. String
+2. Length -> number of characters in a String
+3. Concatenation -> combining two or more strings to create a new string (+)
+4. Substring -> extracting a part of a string -> "Parameterised" -> "meter"
+5. Indexing -> accessing a character in a string -> "Parameterised"[0] -> "
+
+
+
+Map
+Set
+Math
+

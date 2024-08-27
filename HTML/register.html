@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Register Page</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+
+            form {
+                width: 400px;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px
+                    rgba(0, 0, 0, 0.1);
+            }
+
+            fieldset {
+                border: 1px solid black;
+                padding: 10px;
+                margin: 0;
+            }
+
+            legend {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            textarea,
+            input[type="date"] {
+                width: calc(100% - 20px);
+                padding: 8px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            input[type="radio"] {
+                margin-left: 20px;
+            }
+
+            input[type="submit"] {
+                padding: 10px 20px;
+
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>User Personal Information</legend>
+                <label>Full Name</label>
+                <input type="text" name="name"/>
+
+                <label>Email</label>
+                <input type="email" name="email"/>
+
+                <label>Password</label>
+                <input type="password" name="password"/>
+
+                <label>Confirm Password</label>
+                <input type="password" name="confirmPassword"/>
+                
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="others">Others
+
+                <label>DOB</label>
+                <input type="date" name="dob">
+
+                <label>Address</label>
+                <textarea name="Address"></textarea>
+                
+                <input type="submit" name="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>

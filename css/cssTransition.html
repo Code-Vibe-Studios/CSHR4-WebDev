@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        h1{
+            color: blue;
+            text-align: center;
+        }
+
+        div.one{
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;
+            margin: 0 auto;
+            background: lightblue;
+            transition: height 1s, width 1s, background 1s;
+        }
+
+        div.one:hover{
+            height: 300px;
+            width: 300px;
+            background: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Transition</h1>
+    <div class="one"></div>
+</body>
+</html>

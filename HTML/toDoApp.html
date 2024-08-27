@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do App</title>
+    </head>
+    <body bgcolor="skyblue">
+        <h1 style="color: blueviolet;">My To-Do List</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter Task">
+            <button type="submit" style="background-color: green; color: white;">Add</button>
+        </form>
+        <ul id="todo-list">
+            <!--Tasks will be automatically added here-->
+        </ul>
+        <script>
+            // JavaScript code
+            function addTask(event){
+                event.preventDefault();  // Prevent from submission
+
+                //Get the input value
+                const taskInput = document.getElementById('todo-input');
+                const taskText = taskInput.value.trim();
+
+                if (taskText !== '') {
+                    const todoList = document.getElementById('todo-list');
+                    const newTask = document.createElement('li');
+                    newTask.innerHTML= `
+                    <input type="checkbox">
+                    <span style="color:purple;">${taskText}</span>
+                    <button onclick="removeTask(this)" style="background-color: red; color: white;">Remove</button>
+                    `;
+                    todoList.appendChild(newTask);
+                    taskInput.value = '';
+                }
+            }
+
+            function removeTask(button){
+                const taskItem = button.parentElement;
+                taskItem.remove();
+            }
+
+            document.getElementById('todo-form').addEventListener('submit',addTask);
+        </script>
+    </body>
+</html>

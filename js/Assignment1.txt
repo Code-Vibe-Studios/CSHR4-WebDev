@@ -1,0 +1,49 @@
+
+
+### If Statements
+1. Write a JavaScript code snippet that checks if a number stored in a variable `num` is greater than 10. If it is, print "Number is greater than 10" to the console.
+2. Modify the previous code to also check if the number is equal to 10. Print "Number is exactly 10" if it is.
+
+### If-Else Statements
+1. Write a JavaScript function that takes a number as an argument and returns "Positive" if the number is greater than 0, otherwise returns "Non-positive".
+2. Create a JavaScript program that checks the age of a person stored in a variable `age`. If the age is 18 or more, print "You are an adult"; otherwise, print "You are a minor".
+
+### Switch
+1. Write a JavaScript switch statement that takes a variable `day` representing a day of the week (e.g., 'Monday') and prints "Weekend" if it is Saturday or Sunday, and "Weekday" otherwise.
+2. Create a switch statement to check the value of a variable `grade` and print "Excellent" for 'A', "Good" for 'B', "Average" for 'C', "Poor" for 'D', and "Fail" for 'F'.
+
+### Ternary Operator
+1. Rewrite the following if-else statement using the ternary operator:
+   ```javascript
+   if (score > 50) {
+       result = "Pass";
+   } else {
+       result = "Fail";
+   }
+   ```
+2. Use the ternary operator to set a variable `isEven` to true if a number `num` is even, and false if it is odd.
+
+### Break Statement
+1. Write a JavaScript for loop that prints numbers from 1 to 10 but breaks the loop when the number 5 is reached.
+2. Create a JavaScript while loop that continually prompts the user for a password until the correct password "admin" is entered. Use a break statement to exit the loop when the correct password is entered.
+
+### For Loop
+1. Write a JavaScript for loop that prints all even numbers from 1 to 20.
+2. Create a for loop that calculates the sum of all numbers from 1 to 100 and prints the result.
+
+### While Loop
+1. Write a JavaScript while loop that prints numbers from 10 down to 1.
+2. Create a while loop that prompts the user to enter a number. The loop should continue until the user enters a number greater than 100.
+
+### Do-While Loop
+1. Write a JavaScript do-while loop that prints "Hello, World!" five times.
+2. Create a do-while loop that asks the user to guess a secret number (e.g., 7). The loop should continue until the user guesses the correct number.
+
+### For-In Loop
+1. Given an object `person` with properties `name`, `age`, and `city`, write a for-in loop that prints each property and its value.
+2. Create a for-in loop that iterates over an object `car` with properties `make`, `model`, and `year`, and prints each key and value.
+
+### For-Of Loop
+1. Write a JavaScript for-of loop that iterates over an array of colors (`['red', 'green', 'blue']`) and prints each color to the console.
+2. Create a for-of loop that iterates over a string `str` and prints each character.
+
