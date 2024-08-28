@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On key up</title>
+    <script>
+        let a = 0;
+        let b = 0;
+        let c = 0;
+        function changeBackground(){
+            let x =  document.getElementById('bg');
+            x.style.backgroundColor = 'rgb('+a+','+b+','+c+')';
+
+            let y =  document.getElementById('bg1');
+            y.style.backgroundColor = "red";
+            a+=100;
+            b+=a+50;
+            c+=b+70;
+            if(a>255)a=a-b;
+            if(b>255)b=a;
+            if(c>255)c=b;
+        }
+    </script>
+</head>
+<body>
+    <h2>The input box will change color when UP arrow key is pressed.</h2>
+    <input id="bg" onkeyup="changeBackground()" placeholder="write something" style="color: aqua;"><br>
+    <input id="bg1" onkeyup="changeBackground()" placeholder="write something" style="color: aqua;">
+</body>
+</html>
